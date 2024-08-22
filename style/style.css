@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar Start */
+nav img{
+    width: 28px;
+    height: 28px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+.BG-Color{
+    background: #023047;
+}
+
+nav button{
+    padding: 3px 12px;
+    border-radius: 12px;
+    border-color: #00b4d8;
+    background-color: gray;
+    font-size: 22px;
+    color: white;
+}
+
+.B{
+    margin-left: 20px;
+}
+
+button:hover{
+   background-color: #2a9d8f;
+   color: black;
+}
+
+.nav-item{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    /* gap: 120px; */
+    gap: 220px;
+    padding: 12px 14px;
+    background-color: #386641;
+    align-items: center; 
+}
+
+.nav-2 ul, .Logo ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+/* Navbar End */
+
+/* BG img start */
+    .Welcome{
+        text-align: center;
+        color: black;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        cursor: pointer;
+    }
+
+    .Search{
+        text-align: center;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .Search input{
+        width: 40%; 
+        height: 60px; 
+        font-size: 25px; 
+        border-style: double;
+    }
+
+    .s-icon{
+        position: relative;
+        position: absolute;
+        font-size: 25px;
+        color: #2a9d8f;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+
+    .s-icon:hover{
+        color: black;
+    }
+
+    .Sec {
+        background-image: url(img/BG-img.jpg);
+        /* width: 100%; */
+        background-size: 100%;
+        height: 600px;
+        background-repeat: no-repeat; 
+        /* background-position-x: center; */
+    }
+
+    .Search input{
+        text-align: center;
+        padding: 10px;
+        border-radius: 40px;
+        border-color: #fb8500;   
+    }
+
+    .Welcome-1{
+        text-align: justify;
+        color: black;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 20px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .Welcome:hover{
+        color: #2a9d8f;
+        cursor: pointer;
+    }
+
+    .Welcome-1:hover{
+        color: #fb8500;
+        cursor: pointer;
+    }
+/* BG img end */
+
+/* Food Menu */
+    .Food-Menu{
+        display: flex;
+        gap: 30px;
+        padding: 50px;
+        justify-content: center;
+        /* background-color: black; */      /* Check for Responsive */
+    }
+
+    .Food-Menu p:hover{
+        color: #fb8500;
+        cursor: pointer;
+    }
+
+    .Food-Menu img{
+        border: orangered 3px solid;
+        border-radius: 80px;
+        width: 280px;
+        height: 300px;
+        cursor: pointer;
+    }
+
+    .Food-Menu img:hover{
+        cursor: pointer;  
+        /* animation-duration: 300ms; */
+        transform: scale(1.1);
+        transition-duration: 2s;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .F-Text{
+        text-align: center;
+        color: white;
+        padding: 30px;
+        cursor: pointer;
+    }
+
+    .F-Text:hover{
+        color: #fb8500;
+        cursor: pointer;
+    }
+    .M-Text{
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    /* Customer Review */
+    .Customer-Review{
+        display: flex;
+        padding: 50px;
+        text-align: center;
+        color: white;
+        gap: 30px;
+        /* background-color: black; */          /* Check for Responsive */
+    }
+
+    .Border{
+        border: 1px white solid;
+        padding: 10px;
+        border-radius: 20px;
+
+        img{
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        p{
+            text-align: justify;
+            font-size: 22px;
+        }
+
+    }
+
+    .Border img:hover{
+        cursor: pointer;  
+        /* animation-duration: 300ms; */
+        transform: scale(1.4);
+        transition-duration: 2s;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .Border p:hover{
+        color: #fb8500;
+        cursor: pointer;
+    }
+
+    .Border h5:hover{
+        color: #fb8500;
+        cursor: pointer;
+    }
+
+    .Customer-Review img{
+        width: 150px;
+        height: 150px;
+        border: 3px white solid;
+        border-radius: 50%;
+    }
+
+    /* Gallery */
+    .Gallery{
+        display: flex;
+        padding: 50px;
+        text-align: center;
+        color: white;
+        gap: 30px;
+        justify-content: center;
+        /* background-color: black; */      /* Check for Responsive */
+    }
+    .Gallery h5:hover{
+        color: #fb8500;
+    }
+
+    .Gallery p:hover{
+        color: #fb8500;
+    }
+
+    .In-Gallery{
+        border: 1px white solid;
+        border-radius: 20px;
+
+        img{
+            border: 3px white solid;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: 50px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .In-Gallery a:hover{
+        color: #fb8500;
+    }
+
+    .In-Gallery img:hover{
+        cursor: pointer;  
+        /* transform: scale(.1); */
+        transform: scale(2.2);
+        transition-duration: 2s;
+        transition: all 0.3s ease-in-out;
+    }
+
+    /* About Us */
+    .AboutUs{
+        text-align: justify;
+
+    }
+    .AboutUs  a{
+        font-size: 22px;
+        color: white;
+        line-height: 1cm;
+        text-decoration: none;
+    }
+
+    .AboutUs a:hover{
+        color: #fb8500;
+    }
+
+    /* Staff Profile */
+    .Staff{
+        display: flex;
+        gap: 30px;
+        padding-bottom: 50px;
+    }
+
+    .container-1{
+        margin-bottom: -90px;
+        
+        h2{
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        p{
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .container a:hover{
+        color: #fb8500;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover{
+        background-color: #555;
+      }
+
+      .card img{
+        width:100%; 
+        height: 50%;
+      }
+
+      .card img:hover{
+        cursor: pointer;  
+        transform: scale(1.8);
+        transition-duration: 2s;
+        transition: all 0.3s ease-in-out;
+      }
+
+      /* About Company */
+      .About-Coom{
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+      }
+
+      .BG-Img{
+        background-image: url(/style/img/Company-2.JPG);
+        background-repeat: no-repeat; 
+        /* background-size: 100%; */
+        /* background-size: cover; */
+        background-size: contain;
+        height: 600px;
+        border-radius: 10px;
+        padding: 20px;
+        /* background-color: #cf1111;        Check for Responsive */
+
+        h1{
+            text-align: center;
+            color: white;
+            padding-top: 10px;
+        }
+
+      }
+
+      .BG-Img:hover{
+        cursor: pointer;  
+        transform: scale(1.2);
+        transition-duration: 2s;
+        transition: all 0.7s ease-in-out;
+      }
+
+    /* Contact Form */
+    .Contact{
+        display: flex;
+        /* gap: 30px; */
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+        /* border: 1px white solid; */
+    }
+
+    .Left-Side{
+        color: white;
+        /* text-transform: capitalize; */
+        padding: 15px;
+        text-align: center;
+        font-size: 22px;
+        border: 1px white solid;
+    }
+
+    .Right-Side{
+        color: white;
+        padding-right: 40px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-size: 22px;
+        border: 1px white solid;
+    }
+
+    /* FAQ Section Start */
+    .FAQ{
+        padding-bottom: 30px;
+    }
+    .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    }
+  
+    .accordion:hover {                  /* .active, .accordion:hover */
+    background-color: #ccc;
+    }
+  
+    .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    }
+
+    /* FAQ Section End */
+
+    /* Footer Start */
+    .Footer{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-top: 30px;
+        /* background-color: red; */
+    }
+
+    .Footer img{
+        width: 50px; 
+        height: 50px;
+    }
+
+    .Home{
+        justify-content: center;
+        color: white;
+    }
+
+    .Home h3:hover{
+        color: #fb8500;
+    }
+
+    .Home-1 h3:hover{
+        color: #fb8500;
+    }
+
+    .Home p:hover{
+        color: #fb8500;
+    }
+
+    .Home p{
+        font-size: 18px;
+    }
+
+    .Home-1 h3{
+        color: white;
+    }
+
+    .Home-1  a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    .Home-1  li{
+        list-style: none;
+    }
+
+    .Home-1 a:hover{
+        color: #386641 !important;
+    }
+
+    .Home-1  ul{
+        padding-left: 0px;
+    }
+    /* Footer Start */
+    .HR{
+        color:white; 
+        /* border: 2px solid;   */
+    }
+
+    .Copy-Right{
+        color: white; 
+        padding: 20px;
+        text-align: center;
+    }
+
+    .Copy-Right h5:hover{
+        color: #fb8500;
+    }
+
+    /* body{
+        overflow-x: hidden;
+    } */
